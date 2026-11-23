@@ -4,7 +4,7 @@
 // sibilants sound like the thing itself — a whisper made into a word.
 import { mkdirSync, writeFileSync } from "node:fs";
 
-const WORD = "psithurism"; // one word, eleven letters, no explanation, no second draft.
+const WORD = "psithurism"; // one word, ten letters, no explanation, no second draft.
 
 mkdirSync("/output", { recursive: true });
 writeFileSync("/output/entry.txt", WORD); // exactly the word, nothing else.
